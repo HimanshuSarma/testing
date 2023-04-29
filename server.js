@@ -10,7 +10,7 @@ app.use(cors({
 }));
 
 app.get(`/home`, (req, res, next) => {
-    res.send(`Hii`);
+    res.send(`Hello from home`);
 })
 
 app.listen(port, () => {
